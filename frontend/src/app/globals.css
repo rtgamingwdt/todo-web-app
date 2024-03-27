@@ -33,6 +33,7 @@ main h1.title {
   text-transform: uppercase;
   cursor: pointer;
   width: fit-content;
+  user-select: none;
 }
 
 main h1.title:hover {

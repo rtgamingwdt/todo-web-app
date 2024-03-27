@@ -7,7 +7,7 @@ export default function Sidebar() {
     const { sidebarActive } = useController();
 
     return (
-        <div style={{ width: sidebarActive ? "16rem" : "0rem", padding: sidebarActive ? "1.5rem" : "0rem" }} className="duration-500 flex flex-col flex-shrink h-full border-r border-r-main space-y-6 relative overflow-clip">
+        <div style={{ width: sidebarActive ? "16rem" : "0rem", padding: sidebarActive ? "1.5rem" : "0rem" }} className="select-none duration-500 flex flex-col flex-shrink h-full border-r border-r-main space-y-6 relative overflow-clip">
             <div className="space-y-2">
                 <Link href={"/"} className="nav-link group">
                     <FaHome className="group-hover:text-blue-500" />
