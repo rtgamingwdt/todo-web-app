@@ -11,6 +11,9 @@ const config: Config = {
       borderColor: {
         main: "var(--border)",
       },
+      backgroundColor: {
+        card: "var(--bg-card)",
+      },
     },
   },
   plugins: [],
